@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ma page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <h1>Bienvenue. Il est {{ maintenant }}</h1>
+    <img src="{% static 'images/MERCO.webp' %}" alt="Merco">
+</body>
+
+</html>

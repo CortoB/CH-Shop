@@ -6,7 +6,7 @@ import datetime
 # Request -> response (request handler)
 
 
-def say_hello(request):
+def show_time(request):
     maintenant = datetime.datetime.now()
     context = {'maintenant': maintenant}
-    return render(request, 'hello.html', context)
+    return render(request, 'showtime.html', context)
